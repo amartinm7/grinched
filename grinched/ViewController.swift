@@ -34,6 +34,19 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         //initGame()
+        let thumbImageNormal = UIImage(named: "cow-3")!
+        slider.setThumbImage(thumbImageNormal, for: .normal)
+        let thumbImageHighlighted = UIImage(named: "cow-4")!
+        slider.setThumbImage(thumbImageHighlighted, for: .highlighted)
+//        let insets = UIEdgeInsets(top: 0, left: 14, bottom: 0, right: 14)
+//        let trackLeftImage = UIImage(named: "cow3")!
+//        let trackLeftResizable =
+//            trackLeftImage.resizableImage(withCapInsets: insets)
+//        slider.setMinimumTrackImage(trackLeftResizable, for: .normal)
+//        let trackRightImage = UIImage(named: "cow3")!
+//        let trackRightResizable =
+//            trackRightImage.resizableImage(withCapInsets: insets)
+//        slider.setMaximumTrackImage(trackRightResizable, for: .normal)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -81,20 +94,17 @@ class ViewController: UIViewController {
         updateScores()
         if (currentValue == targetValue){
             youWinLbl.isHidden = false
-            UIView.animate(withDuration: 2.0){
+            UIView.animate(withDuration: 1.0, delay: 0.0, options: [.autoreverse, .curveLinear, .repeat], animations: {
                 self.youWinLbl.transform = CGAffineTransform(scaleX: 2.0, y: 2.0)
-            }
+            }, completion: nil)
             playSoundOnWin()
             message = "You win!!"
             toggleButtons()
         } else if (score >= 100 || round >= 5){
             youLoseLbl.isHidden = false
-            UIView.animate(withDuration: 2.0) {
+            UIView.animate(withDuration: 1.0, delay: 0.0, options: [.autoreverse, .curveLinear, .repeat], animations: {
                 self.youLoseLbl.transform = CGAffineTransform(scaleX: 2.0, y: 2.0)
-            }/*
-            UIView.animate(withDuration: 1.0, options: [.autoreverse, .curveLinear, .repeat], animations: {
-                self.youLoseLbl.transform = CGAffineTransform(scaleX: 2.0, y: 2.0)
-            },*/
+            }, completion: nil)
             playSoundOnLose()
             message = "You lose!!"
             toggleButtons()

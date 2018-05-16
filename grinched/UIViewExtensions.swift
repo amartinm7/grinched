@@ -51,8 +51,5 @@ extension UIView {
                         self.alpha = 1.0
         }, completion: nil)
     }
-    
-
-    
 }
 

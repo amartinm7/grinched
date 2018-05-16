@@ -10,6 +10,7 @@
 		BA4A3BCB209BC43D001D336C /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A3BC8209BC43D001D336C /* SoundManager.swift */; };
 		BA4A3BCC209BC43D001D336C /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A3BC9209BC43D001D336C /* UIViewExtensions.swift */; };
 		BA4A3BCD209BC43D001D336C /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4A3BCA209BC43D001D336C /* AboutViewController.swift */; };
+		BA61C2BC209F991800E156DE /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA61C2BB209F991800E156DE /* CustomSlider.swift */; };
 		BA937739209BC2EA007D2BC0 /* GrinchedRegular.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA937728209BC2EA007D2BC0 /* GrinchedRegular.otf */; };
 		BA93773A209BC2EA007D2BC0 /* looperman-l-0671112-0120148-danke-funky-guitar-loop.wav in Resources */ = {isa = PBXBuildFile; fileRef = BA93772A209BC2EA007D2BC0 /* looperman-l-0671112-0120148-danke-funky-guitar-loop.wav */; };
 		BA93773B209BC2EA007D2BC0 /* 30734_funhouse-organ-accent-without-charge_scf015201_proud_music_preview.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA93772B209BC2EA007D2BC0 /* 30734_funhouse-organ-accent-without-charge_scf015201_proud_music_preview.mp3 */; };
@@ -38,6 +39,7 @@
 		BA4A3BC8209BC43D001D336C /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		BA4A3BC9209BC43D001D336C /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		BA4A3BCA209BC43D001D336C /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		BA61C2BB209F991800E156DE /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomSlider.swift; path = grinched/CustomSlider.swift; sourceTree = "<group>"; };
 		BA937728209BC2EA007D2BC0 /* GrinchedRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GrinchedRegular.otf; sourceTree = "<group>"; };
 		BA93772A209BC2EA007D2BC0 /* looperman-l-0671112-0120148-danke-funky-guitar-loop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "looperman-l-0671112-0120148-danke-funky-guitar-loop.wav"; sourceTree = "<group>"; };
 		BA93772B209BC2EA007D2BC0 /* 30734_funhouse-organ-accent-without-charge_scf015201_proud_music_preview.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "30734_funhouse-organ-accent-without-charge_scf015201_proud_music_preview.mp3"; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		BAFB0CF3209BB87200479D4B = {
 			isa = PBXGroup;
 			children = (
+				BA61C2BB209F991800E156DE /* CustomSlider.swift */,
 				BAFB0CFE209BB87200479D4B /* grinched */,
 				BAFB0CFD209BB87200479D4B /* Products */,
 			);
@@ -228,6 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA4A3BCD209BC43D001D336C /* AboutViewController.swift in Sources */,
+				BA61C2BC209F991800E156DE /* CustomSlider.swift in Sources */,
 				BAFB0D02209BB87200479D4B /* ViewController.swift in Sources */,
 				BA4A3BCC209BC43D001D336C /* UIViewExtensions.swift in Sources */,
 				BA4A3BCB209BC43D001D336C /* SoundManager.swift in Sources */,
