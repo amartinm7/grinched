@@ -100,7 +100,7 @@ class ViewController: UIViewController {
             playSoundOnWin()
             message = "You win!!"
             toggleButtons()
-        } else if (score >= 100 || round >= 5){
+        } else if (score >= 100 || round > 4){
             youLoseLbl.isHidden = false
             UIView.animate(withDuration: 1.0, delay: 0.0, options: [.autoreverse, .curveLinear, .repeat], animations: {
                 self.youLoseLbl.transform = CGAffineTransform(scaleX: 2.0, y: 2.0)
