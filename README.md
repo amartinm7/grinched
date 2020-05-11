@@ -1,3 +1,5 @@
+[![BCH compliance](https://bettercodehub.com/edge/badge/amartinm7/grinched?branch=master)](https://bettercodehub.com/)
+
 ![crazy cow](http://static1.squarespace.com/static/58dc9411893fc0b962fa3950/58e29ed76fd27c13f413fa3e/58e29edc6fd27c13f413fd82/1491246812519/cow.gif?format=original)
 
 # grinched
